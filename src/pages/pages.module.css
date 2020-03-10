@@ -1,0 +1,48 @@
+.detailsPage {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.poster {
+  max-height: 400px;
+}
+
+.detailsInfo {
+  padding: 20px;
+}
+
+.actorImage {
+  max-height: 100px;
+  border-radius: 4px;
+}
+
+.actorList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.actorListItem {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.detailsPara {
+  text-align: justify;
+  font-style: italic;
+}
+
+.backBtn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: pink;
+  color: #3d004d;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
