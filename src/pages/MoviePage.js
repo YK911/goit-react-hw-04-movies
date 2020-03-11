@@ -5,11 +5,11 @@ import Spinner from "../components/spinner/Spinner";
 import styles from "./pages.module.css";
 
 const LazyCast = lazy(() =>
-  import("./Cast" /* webpackChunkName: "cast-page" */)
+  import(/* webpackChunkName: "cast-page" */ "./Cast" )
 );
 
 const LazyReviews = lazy(() =>
-  import("./Reviews" /* webpackChunkName: "reviews-page" */)
+  import(/* webpackChunkName: "reviews-page" */ "./Reviews" )
 );
 
 const getContentType = value => {
